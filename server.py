@@ -77,9 +77,10 @@ async def signal(sid, data):
                 'data': data.get('data')
             }, room=room_id, skip_sid=sid)
 
-@app.router.add_get('/')
 async def index(request):
     return web.Response(text="QuickShare Signaling Server Running!")
+
+app.router.add_get('/', index)
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 8080))

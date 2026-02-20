@@ -12,7 +12,7 @@ Bu sunucu, iki bilgisayarın birbirini bulmasını sağlar. Dosyalar BU SUNUCUDA
 2.  [Render.com](https://render.com) hesabına giriş yapın.
 3.  "New +" butonuna basın ve **"Web Service"** seçin.
 4.  GitHub reponuzu bağlayın.
-5.  Aşağıdaki ayarları yapın:
+5.  Aşağıdaki ayarları yapın:   
     *   **Name:** `quickshare-signal` (veya istediğiniz bir isim)
     *   **Runtime:** `Python 3`
     *   **Build Command:** `pip install -r requirements.txt`
